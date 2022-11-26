@@ -14,7 +14,7 @@ const UserSchema = new mongoose.Schema({
     },
     favs: [{
         type: String
-    }]
+    }],
 }, {
     timestamps: true
 })

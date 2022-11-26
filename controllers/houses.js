@@ -31,6 +31,7 @@ const getHouseData = async(req,res)=>{
 }
 
 
+
 const createHouse = async(req,res)=>{
     const {name, description, image, founder, houseColor, animal} = req.body;
     const house = {name, description, image, founder, houseColor, animal}
